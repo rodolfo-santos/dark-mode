@@ -1,29 +1,56 @@
-# Nuxt 3 Minimal Starter
+<div align="center">
+  <img src="./docs/assets/banner.gif" />
+</div>
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+<br/>
 
-## Setup
+<div align="center">
+  <a href="https://nuxtjs.org/docs/get-started/installation/">
+    <img alt="Nuxt" src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img alt="Typescript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  </a>
+</div>
+<div align="center">
+  <a href="https://www.docker.com/">
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+  </a>
+</div>
 
-Make sure to install the dependencies
+<br />
 
-```bash
-yarn install
-```
+# 💻 DarkMode (NUXT3)
 
-## Development
+A small project created with Nuxt3 using composable to state management
 
-Start the development server on http://localhost:3000
+## 🚀 Setup
 
-```bash
-yarn dev
-```
+### Configuration with docker (Recomendado)
 
-## Production
+- [Install Docker](https://docs.docker.com/get-docker/)
+- [Install docker-compose](https://docs.docker.com/compose/install/)
+- Open the root folder and enter:
+  > ```sh
+  > docker-compose up
+  > ```
+- Application: http://localhost:3002
 
-Build the application for production:
+### Configuration without docker
 
-```bash
-yarn build
-```
+Requirements:
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+- NodeJS@14.17.0
+
+Run
+
+- Install dependencies:
+
+  > ```sh
+  > npm install
+  > ```
+
+- Run app:
+  > ```sh
+  > npm run dev
+  > ```
